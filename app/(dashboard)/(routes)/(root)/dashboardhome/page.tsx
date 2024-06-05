@@ -3,7 +3,7 @@ import { redirect } from 'next/navigation'
 import { CheckCircle, Clock } from 'lucide-react'
 import CoursesList from '@/components/course-list'
 import { getDashboardCourses } from '@/actions/get-dashboard-courses'
-import { InfoCard } from './_components/info-card'
+import { InfoCard } from '../_components/info-card'
 
 export default async function Dashboard() {
   const { userId } = auth()
